@@ -1,0 +1,18 @@
+{
+  "name": "jwtbasedapi",
+  "version": "1.0.0",
+  "description": "Restful api authentication based on json web token",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tom Yu <yukangle@outlook.com> (http://www.kangleyu.me)",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "jsonwebtoken": "^7.1.9",
+    "mongoose": "^4.6.8",
+    "morgan": "^1.7.0"
+  }
+}
